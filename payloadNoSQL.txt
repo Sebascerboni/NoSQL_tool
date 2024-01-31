@@ -1,0 +1,4 @@
+{"username": {"$ne": null}, "password": {"$ne": null}}
+{"username": {"$ne": "foo"}, "password": {"$ne": "bar"}}
+{"username": {"$regex":"admin.*"}, "password": {"$ne":""}}
+{"username": {"$gt":""}, "password": {"$gt":""}}
